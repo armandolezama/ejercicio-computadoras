@@ -121,3 +121,13 @@ const arregloDeComputadorasAleatorio = [
     funciona: false
   }
 ];
+
+for (let i = 0; i < arregloDeComputadorasAleatorio.length; i++){
+  console.log (arregloDeComputadorasAleatorio[i])
+}
+
+for (let i = 0; i < arregloDeComputadorasAleatorio.length; i++){
+  if (arregloDeComputadorasAleatorio[i].discoDuro >= 500 && arregloDeComputadorasAleatorio[i].funciona){
+    console.log(`Esta computadora cumple los requisitos ${arregloDeComputadorasAleatorio[i].discoDuro}y si funciona${arregloDeComputadorasAleatorio[i].funciona}`)
+  }
+}
