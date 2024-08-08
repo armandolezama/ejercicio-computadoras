@@ -131,3 +131,32 @@ for (let i = 0; i < arregloDeComputadorasAleatorio.length; i++){
     console.log(`Esta computadora cumple los requisitos ${arregloDeComputadorasAleatorio[i].discoDuro}y si funciona${arregloDeComputadorasAleatorio[i].funciona}`)
   }
 }
+
+/* indice 1, indice2, indice3, indice7, indice 19 */
+
+
+function filtrarComputadoras (computadoras, gigasRequeridos){
+  let resultado =[];
+  for (let i = 0; i < computadoras.length; i++){
+    console.log(computadoras[i].discoDuro)
+    console.log(computadoras[i].discoDuro >= gigasRequeridos)
+    console.log(computadoras[i].funciona)
+    if(computadoras[i].discoDuro >= gigasRequeridos && computadoras[i].funciona)
+      resultado.push(computadoras[i]);
+  }
+  return resultado;
+}
+
+console.log(filtrarComputadoras(arregloDeComputadorasAleatorio,600))
+
+function filtrarComputadorasDos (computadoras, sistemaOperativo){
+  let resultado =[];
+  for(let i =0; i < computadoras.length; i++){
+    if(computadoras[i].so === sistemaOperativo && computadoras[i].funciona)
+      resultado.push(computadoras[i]);
+  }
+return resultado;
+  }
+
+ console.log(filtrarComputadorasDos(arregloDeComputadorasAleatorio, 'macOS'))
+  
