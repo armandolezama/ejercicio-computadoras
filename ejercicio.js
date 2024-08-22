@@ -1,4 +1,4 @@
-const arregloDeComputadorasAleatorio = [
+/*const arregloDeComputadorasAleatorio = [
   { marca: 'apple',
     color: 'rojo',
     ram: 64,
@@ -135,7 +135,7 @@ for (let i = 0; i < arregloDeComputadorasAleatorio.length; i++){
 /* indice 1, indice2, indice3, indice7, indice 19 */
 
 
-function filtrarComputadoras (computadoras, gigasRequeridos){
+/*function filtrarComputadoras (computadoras, gigasRequeridos){
   let resultado =[];
   for (let i = 0; i < computadoras.length; i++){
     console.log(computadoras[i].discoDuro)
@@ -146,6 +146,22 @@ function filtrarComputadoras (computadoras, gigasRequeridos){
   }
   return resultado;
 }
+  let a = elOdiosoArreglo[resultado]
+let b = elOdiosoArreglo[resultado+1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado+1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
 
 console.log(filtrarComputadoras(arregloDeComputadorasAleatorio,600))
 
@@ -159,4 +175,157 @@ return resultado;
   }
 
  console.log(filtrarComputadorasDos(arregloDeComputadorasAleatorio, 'macOS'))
+*/
+
+const elOdiosoArreglo=[3, 8, 21, 62, 9, 194, 76, 5, 29]
+ const determinarSiEstaOrdenado = function (arreglo) {
+  for (let i = 0; i < arreglo.length - 1; i++) {
+    if (arreglo[i] > arreglo[i + 1]) {
+      return i
+    }
+  }
+  return true
+}
   
+let resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+let a = elOdiosoArreglo[resultado]
+let b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+  
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+ 
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+ a = elOdiosoArreglo[resultado]
+ b = elOdiosoArreglo[resultado + 1]
+elOdiosoArreglo[resultado] = b
+elOdiosoArreglo[resultado+1] = a
+console.log(elOdiosoArreglo)
+
+resultado = determinarSiEstaOrdenado(elOdiosoArreglo)
+console.log(resultado)
+
+//Construir una función que, cuando reciba un número, retorne true, pero cuando reciba un true, retorne false
+
+
+//console.log(funcionEvaluadora(5))
+//Se espera un true
+
+//console.log(funcionEvaluadora(2000))
+//Se espera un true
+
+//console.log(funcionEvaluadora(true))
+//Se espera un false 
+
+
+function retornar (valor){
+  return typeof valor === "number"
+}
+
+function ordenarArreglo (arreglo){
+  let segundoResultado = determinarSiEstaOrdenado(arreglo)
+while(retornar(segundoResultado)){
+  a = arreglo[segundoResultado]
+  b =arreglo[segundoResultado+1]
+  arreglo[segundoResultado]=b
+  arreglo[segundoResultado + 1]=a 
+  segundoResultado=determinarSiEstaOrdenado(arreglo)
+}
+return arreglo
+}
+const elHermosoArreglo = ordenarArreglo([43,13,56,87,65,235,2,45,65,789,987,7,34])
+console.log(elHermosoArreglo)
