@@ -1,0 +1,63 @@
+h2 {
+  text-align: center;
+}
+
+#numbers-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.number-paragraph {
+  font-size: 30px;
+  margin: 0 5px;
+  padding: 0 10px;
+  transition: all 0.5s ease;
+}
+
+.number-paragraph.active {
+  border: solid 1px red;
+}
+
+#control-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#control-dashboard-buttons-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.control-dashboard-buttons {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#inputs-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+
+.number-input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.number-input-close-button {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
